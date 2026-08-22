@@ -22,7 +22,7 @@ class Solution {
             // Update maximum window length found so far
             maxLength = Math.max(maxLength, right - left + 1);
         }
-        
         return maxLength;
     }
 }
+
